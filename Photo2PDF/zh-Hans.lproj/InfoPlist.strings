@@ -1,0 +1,2 @@
+"CFBundleDisplayName" = "PDF Camera";
+"NSCameraUsageDescription" = "PDF Camera 需要使用相机扫描文档并生成 PDF 文件。";

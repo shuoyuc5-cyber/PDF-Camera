@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1E66B09F15CD579591F507 = {isa = PBXBuildFile; fileRef = 9E67E6FC41E4FD3453A359BC; };
+		AD89B858BB20EDA791DC356E = {isa = PBXBuildFile; fileRef = 6272F142E862102DF992CE6A; };
+		0D85D97D96802A8C9ED1970B /* Photo2PDF/Utilities/DocumentRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B60769ECBFC0EFA33ED3401 /* Photo2PDF/Utilities/DocumentRules.swift */; };
+		3D7FDFEE3EDCD1053A53936E /* Photo2PDF/Models/PDFExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9605625E07467CD2204BB /* Photo2PDF/Models/PDFExportDocument.swift */; };
+		593960D295AEA4205FCC7C07 /* Photo2PDF/Services/PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC6B63DD10DE43433F293F /* Photo2PDF/Services/PDFService.swift */; };
+		5DE75F37E8A70D6E286451BF /* Photo2PDF/ViewModels/DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A18E24046FB0452956BC94 /* Photo2PDF/ViewModels/DocumentViewModel.swift */; };
+		716E9590E60B3AFA6E62BF18 /* Photo2PDF/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6 /* Photo2PDF/Assets.xcassets */; };
+		8ABA417137E5477FAC88B6A7 /* Photo2PDF/Views/PDFPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7783F93B0AEDB9AC3510F7F2 /* Photo2PDF/Views/PDFPreviewView.swift */; };
+		B235DD2A6BBD42AF1D560FAF /* Photo2PDF/Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9CC228B81B99FAC9A8FEE /* Photo2PDF/Views/ContentView.swift */; };
+		BCCA0D328E8B0079C61AB8CD /* Photo2PDF/Views/PageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105301C8C5B08292A4826EF /* Photo2PDF/Views/PageEditorView.swift */; };
+		C271B535B259AE6E3FFF88D0 /* Photo2PDF/Models/DocumentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D24D7156D3C6962FB6B5E /* Photo2PDF/Models/DocumentPage.swift */; };
+		CCA70FA03866BC56589069B2 /* Photo2PDF/Services/ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF6AD4496B618006EF0541 /* Photo2PDF/Services/ImageStore.swift */; };
+		CD105291464DBD1C3C07E1CA /* Photo2PDFTests/DocumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E410C79A41FEC4C7336287 /* Photo2PDFTests/DocumentTests.swift */; };
+		D77AA5F77D3F59823DED334F /* Photo2PDF/Views/ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC78653A8229A8AB45545BF /* Photo2PDF/Views/ScannerView.swift */; };
+		DB53349899895832079DE662 /* Photo2PDF/Photo2PDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB77AB2EB1528DF0D58C185 /* Photo2PDF/Photo2PDFApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8A3AD980EC179856012B7E;
+			remoteInfo = Photo2PDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AB29F63D44A4482C2F12B36 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en"; path = "Photo2PDF/en.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		8A8AC20E93D97C2CB8E2A7C9 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Photo2PDF/zh-Hans.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		75A9F4760B7982ED1762878F = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en"; path = "Photo2PDF/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		590D85BAFB2977260952FB75 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Photo2PDF/zh-Hans.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		0DEF6AD4496B618006EF0541 /* Photo2PDF/Services/ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Services/ImageStore.swift; sourceTree = SOURCE_ROOT; };
+		199D24D7156D3C6962FB6B5E /* Photo2PDF/Models/DocumentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Models/DocumentPage.swift; sourceTree = SOURCE_ROOT; };
+		26BC6B63DD10DE43433F293F /* Photo2PDF/Services/PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Services/PDFService.swift; sourceTree = SOURCE_ROOT; };
+		2AB77AB2EB1528DF0D58C185 /* Photo2PDF/Photo2PDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Photo2PDFApp.swift; sourceTree = SOURCE_ROOT; };
+		3685E330EC5277A9DD5661C6 /* Photo2PDF/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photo2PDF/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		4105301C8C5B08292A4826EF /* Photo2PDF/Views/PageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Views/PageEditorView.swift; sourceTree = SOURCE_ROOT; };
+		4B60769ECBFC0EFA33ED3401 /* Photo2PDF/Utilities/DocumentRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Utilities/DocumentRules.swift; sourceTree = SOURCE_ROOT; };
+		56E9CC228B81B99FAC9A8FEE /* Photo2PDF/Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Views/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		59BD0A3FF43B32849B319E64 /* Photo2PDF/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Photo2PDF/Info.plist; sourceTree = SOURCE_ROOT; };
+		62A9605625E07467CD2204BB /* Photo2PDF/Models/PDFExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Models/PDFExportDocument.swift; sourceTree = SOURCE_ROOT; };
+		6C7CCDEB3609F1FAA874E941 /* Photo2PDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Photo2PDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7783F93B0AEDB9AC3510F7F2 /* Photo2PDF/Views/PDFPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Views/PDFPreviewView.swift; sourceTree = SOURCE_ROOT; };
+		7D1043473D55BFA90E8530D3 /* Photo2PDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Photo2PDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC78653A8229A8AB45545BF /* Photo2PDF/Views/ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/Views/ScannerView.swift; sourceTree = SOURCE_ROOT; };
+		C8E410C79A41FEC4C7336287 /* Photo2PDFTests/DocumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDFTests/DocumentTests.swift; sourceTree = SOURCE_ROOT; };
+		F9A18E24046FB0452956BC94 /* Photo2PDF/ViewModels/DocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2PDF/ViewModels/DocumentViewModel.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD92572B49AC16A86614498D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05DB79C430AA1B0BA487AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E67E6FC41E4FD3453A359BC = {isa = PBXVariantGroup; children = (8AB29F63D44A4482C2F12B36, 8A8AC20E93D97C2CB8E2A7C9, ); name = "Localizable.strings"; sourceTree = "<group>"; };
+		6272F142E862102DF992CE6A = {isa = PBXVariantGroup; children = (75A9F4760B7982ED1762878F, 590D85BAFB2977260952FB75, ); name = "InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXVariantGroup section */
+
+/* Begin PBXGroup section */
+		3C3B0F03DC089F93B8457928 /* Photo2PDF */ = {
+			isa = PBXGroup;
+			children = (
+				199D24D7156D3C6962FB6B5E /* Photo2PDF/Models/DocumentPage.swift */,
+				62A9605625E07467CD2204BB /* Photo2PDF/Models/PDFExportDocument.swift */,
+				2AB77AB2EB1528DF0D58C185 /* Photo2PDF/Photo2PDFApp.swift */,
+				0DEF6AD4496B618006EF0541 /* Photo2PDF/Services/ImageStore.swift */,
+				26BC6B63DD10DE43433F293F /* Photo2PDF/Services/PDFService.swift */,
+				4B60769ECBFC0EFA33ED3401 /* Photo2PDF/Utilities/DocumentRules.swift */,
+				F9A18E24046FB0452956BC94 /* Photo2PDF/ViewModels/DocumentViewModel.swift */,
+				56E9CC228B81B99FAC9A8FEE /* Photo2PDF/Views/ContentView.swift */,
+				7783F93B0AEDB9AC3510F7F2 /* Photo2PDF/Views/PDFPreviewView.swift */,
+				4105301C8C5B08292A4826EF /* Photo2PDF/Views/PageEditorView.swift */,
+				AFC78653A8229A8AB45545BF /* Photo2PDF/Views/ScannerView.swift */,
+				59BD0A3FF43B32849B319E64 /* Photo2PDF/Info.plist */,
+				3685E330EC5277A9DD5661C6 /* Photo2PDF/Assets.xcassets */,
+				9E67E6FC41E4FD3453A359BC /* Localizable.strings */,
+				6272F142E862102DF992CE6A /* InfoPlist.strings */,
+			);
+			name = Photo2PDF;
+			sourceTree = "<group>";
+		};
+		870B3294C0CBD48AF6BBCC1B = {
+			isa = PBXGroup;
+			children = (
+				3C3B0F03DC089F93B8457928 /* Photo2PDF */,
+				A619C04D8A87AB070162A099 /* Photo2PDFTests */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A619C04D8A87AB070162A099 /* Photo2PDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8E410C79A41FEC4C7336287 /* Photo2PDFTests/DocumentTests.swift */,
+			);
+			name = Photo2PDFTests;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1043473D55BFA90E8530D3 /* Photo2PDF.app */,
+				6C7CCDEB3609F1FAA874E941 /* Photo2PDFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* Photo2PDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "Photo2PDF" */;
+			buildPhases = (
+				949D493B91791558E87BC5D7 /* Sources */,
+				BD92572B49AC16A86614498D /* Frameworks */,
+				8ECC8B5D05B79F879ACDF1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photo2PDF;
+			productName = Photo2PDF;
+			productReference = 7D1043473D55BFA90E8530D3 /* Photo2PDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C062A5A4A7F4F37DD90F54CB /* Photo2PDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AD4600EC3994E0CD3216B8 /* Build configuration list for PBXNativeTarget "Photo2PDFTests" */;
+			buildPhases = (
+				77A03FEE20FE96AD9384861E /* Sources */,
+				E05DB79C430AA1B0BA487AFC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = Photo2PDFTests;
+			productName = Photo2PDFTests;
+			productReference = 6C7CCDEB3609F1FAA874E941 /* Photo2PDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+					C062A5A4A7F4F37DD90F54CB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0E8A3AD980EC179856012B7E;
+					};
+				};
+			};
+			buildConfigurationList = 640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "Photo2PDF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 870B3294C0CBD48AF6BBCC1B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* Photo2PDF */,
+				C062A5A4A7F4F37DD90F54CB /* Photo2PDFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECC8B5D05B79F879ACDF1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716E9590E60B3AFA6E62BF18 /* Photo2PDF/Assets.xcassets in Resources */,
+				2C1E66B09F15CD579591F507 /* Localizable.strings in Resources */,
+				AD89B858BB20EDA791DC356E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A03FEE20FE96AD9384861E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD105291464DBD1C3C07E1CA /* Photo2PDFTests/DocumentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949D493B91791558E87BC5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271B535B259AE6E3FFF88D0 /* Photo2PDF/Models/DocumentPage.swift in Sources */,
+				3D7FDFEE3EDCD1053A53936E /* Photo2PDF/Models/PDFExportDocument.swift in Sources */,
+				DB53349899895832079DE662 /* Photo2PDF/Photo2PDFApp.swift in Sources */,
+				CCA70FA03866BC56589069B2 /* Photo2PDF/Services/ImageStore.swift in Sources */,
+				593960D295AEA4205FCC7C07 /* Photo2PDF/Services/PDFService.swift in Sources */,
+				0D85D97D96802A8C9ED1970B /* Photo2PDF/Utilities/DocumentRules.swift in Sources */,
+				5DE75F37E8A70D6E286451BF /* Photo2PDF/ViewModels/DocumentViewModel.swift in Sources */,
+				B235DD2A6BBD42AF1D560FAF /* Photo2PDF/Views/ContentView.swift in Sources */,
+				8ABA417137E5477FAC88B6A7 /* Photo2PDF/Views/PDFPreviewView.swift in Sources */,
+				BCCA0D328E8B0079C61AB8CD /* Photo2PDF/Views/PageEditorView.swift in Sources */,
+				D77AA5F77D3F59823DED334F /* Photo2PDF/Views/ScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8A3AD980EC179856012B7E /* Photo2PDF */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F3D67935A4F199E058A017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photo2pdf.personal.a91c7e.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo2PDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Photo2PDF";
+			};
+			name = Debug;
+		};
+		20B70E15FDC36C625E57F658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photo2pdf.personal.a91c7e.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo2PDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Photo2PDF";
+			};
+			name = Release;
+		};
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Photo2PDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photo2pdf.personal.a91c7e;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Photo2PDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photo2pdf.personal.a91c7e;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52AD4600EC3994E0CD3216B8 /* Build configuration list for PBXNativeTarget "Photo2PDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3D67935A4F199E058A017A /* Debug */,
+				20B70E15FDC36C625E57F658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "Photo2PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "Photo2PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

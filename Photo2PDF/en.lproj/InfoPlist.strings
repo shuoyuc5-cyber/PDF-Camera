@@ -1,0 +1,2 @@
+"CFBundleDisplayName" = "PDF Camera";
+"NSCameraUsageDescription" = "PDF Camera needs camera access to scan documents and create PDF files.";
